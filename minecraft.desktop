@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Minecraft
+Comment=Hello Minecraft Launcher
+Exec=java -jar /home/arkli/.local/share/HMCL.jar
+Icon=minecraft
+Terminal=false
+Type=Application
+Hidden=false
+Categories=Application;Game;

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Listen 1
+Comment=A Free Music Player
+Exec=/opt/listen1/listen1
+Icon=/home/arkli/.local/share/icons/listen1.png
+Terminal=false
+Type=Application
+Hidden=false
+Categories=AudioVideo;Audio;Player;Music;

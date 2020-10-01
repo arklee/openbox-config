@@ -1,0 +1,144 @@
+    <!-- Keybindings for moving windows -->
+    <keybind key="mod4-Left">
+      <action name="GoToDesktop">
+        <to>west</to>
+        <wrap>yes</wrap>
+      </action>
+    </keybind>
+    <keybind key="mod4-Right">
+      <action name="GoToDesktop">
+        <to>east</to>
+        <wrap>yes</wrap>
+      </action>
+    </keybind>
+    <keybind key="mod4-Up">
+      <action name="SendToDesktop">
+        <to>west</to>
+      </action>
+    </keybind>
+    <keybind key="mod4-Down">
+      <action name="SendToDesktop">
+        <to>east</to>
+      </action>
+    </keybind>
+    <keybind key="mod4-d">
+      <action name="ToggleShowDesktop"/>
+    </keybind>
+    <keybind key="mod4-Super_R">
+      <action name="MoveResizeTo">
+        <monitor>next</monitor>
+      </action>
+    </keybind>
+    <!-- Keybindings for tiling -->
+    <keybind key="A-KP_5">
+      <action name="ToggleMaximize"/>
+    </keybind>
+    <keybind key="A-KP_0">
+      <action name="Iconify"/>
+    </keybind>
+    <keybind key="A-KP_4">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width>50%</width>
+        <height>100%</height>
+      </action>
+    </keybind>
+    <keybind key="A-KP_6">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>0</y>
+        <width>50%</width>
+        <height>100%</height>
+      </action>
+    </keybind>
+    <keybind key="A-KP_8">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width>100%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="A-KP_2">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>-0</y>
+        <width>100%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="A-KP_7">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="A-KP_9">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="A-KP_1">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>-0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="A-KP_3">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <x>-0</x>
+        <y>-0</y>
+        <width>50%</width>
+        <height>50%</height>
+      </action>
+    </keybind>
+    <keybind key="A-KP_Add">
+      <action name="NextWindow">
+        <dialog>none</dialog>
+        <raise>yes</raise>
+        <linear>yes</linear>
+        <allDesktops>yes</allDesktops>
+        <interactive>no</interactive>
+        <finalactions>
+          <action name="Focus"/>
+          <action name="Raise"/>
+          <action name="Unshade"/>
+        </finalactions>
+      </action>
+    </keybind>
+    <keybind key="A-KP_Subtract">
+      <action name="NextWindow">
+        <dialog>none</dialog>
+        <raise>yes</raise>
+        <linear>yes</linear>
+        <allDesktops>yes</allDesktops>
+        <interactive>no</interactive>
+        <finalactions>
+          <action name="Focus"/>
+          <action name="Raise"/>
+          <action name="Unshade"/>
+        </finalactions>
+      </action>
+    </keybind>
+    <keybind key="A-Tab">
+      <action name="NextWindow"/>
+    </keybind>
+    <keybind key="A-S-Tab">
+      <action name="PreviousWindow"/>
+    </keybind>

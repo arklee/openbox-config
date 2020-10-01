@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://openbox.org/">
+  <menu id="root-menu" label="Applications">
+    <item label="File Manager" icon="/home/arkli/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[xdg-open .]]></command></action></item>
+    <item label="Terminal" icon="/home/arkli/.config/obmenu-generator/icons/a69674948cf02b71197d332b577d4b76.png"><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
+    <item label="Web Browser" icon="/home/arkli/.config/obmenu-generator/icons/c7e1c475b5b39f065032f3688b33a3eb.png"><action name="Execute"><command><![CDATA[xdg-open http://]]></command></action></item>
+    <item label="Run command" icon="/home/arkli/.config/obmenu-generator/icons/b2b2a479765ba69f1dc413dc93b41b88.png"><action name="Execute"><command><![CDATA[gmrun]]></command></action></item>
+  <separator label="Categories"/>
+  <menu id="0.523038090513186" icon="/home/arkli/.config/obmenu-generator/icons/31643ff91c9388921823807f94df951c.png" label="Accessories">
+    <item label="About Xfce" icon="/home/arkli/.config/obmenu-generator/icons/285a46d8154c6affd40b49989030073e.png"><action name="Execute"><command><![CDATA[xfce4-about]]></command></action></item>
+    <item label="Archive Manager" icon="/home/arkli/.config/obmenu-generator/icons/9a0320f7c759a564f455be505f047876.png"><action name="Execute"><command><![CDATA[file-roller]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/arkli/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[/usr/lib/Thunar/ThunarBulkRename]]></command></action></item>
+    <item label="ClipIt" icon="/home/arkli/.config/obmenu-generator/icons/6e3411f58826c4144ed89c522f10e01c.png"><action name="Execute"><command><![CDATA[clipit]]></command></action></item>
+    <item label="compton" icon="/home/arkli/.config/obmenu-generator/icons/9087491eb7144692fbebf79c7e648406.png"><action name="Execute"><command><![CDATA[compton]]></command></action></item>
+    <item label="Fcitx" icon="/home/arkli/.config/obmenu-generator/icons/a4e5205467b6f5a5a1c2d3acb656a10b.png"><action name="Execute"><command><![CDATA[fcitx]]></command></action></item>
+    <item label="File Manager" icon="/home/arkli/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[exo-open --launch FileManager]]></command></action></item>
+    <item label="GVim" icon="/home/arkli/.config/obmenu-generator/icons/987ef92ba8a80daaf3d745e0d7495618.png"><action name="Execute"><command><![CDATA[gvim -f]]></command></action></item>
+    <item label="Leafpad" icon="/home/arkli/.config/obmenu-generator/icons/fa28bbccdb8ea53178a89feae5022254.png"><action name="Execute"><command><![CDATA[leafpad]]></command></action></item>
+    <item label="nitrogen" icon="/home/arkli/.config/obmenu-generator/icons/5b03182ee8857045f7c3ba879738f674.png"><action name="Execute"><command><![CDATA[nitrogen]]></command></action></item>
+    <item label="picom" icon=""><action name="Execute"><command><![CDATA[picom]]></command></action></item>
+    <item label="Terminal Emulator" icon="/home/arkli/.config/obmenu-generator/icons/a69674948cf02b71197d332b577d4b76.png"><action name="Execute"><command><![CDATA[exo-open --launch TerminalEmulator]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/arkli/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Vim" icon="/home/arkli/.config/obmenu-generator/icons/987ef92ba8a80daaf3d745e0d7495618.png"><action name="Execute"><command><![CDATA[xterm -e 'vim']]></command></action></item>
+    <item label="Visual Studio Code" icon="/home/arkli/.config/obmenu-generator/icons/0775ff53e06b1f6a59278fd96a372bcc.png"><action name="Execute"><command><![CDATA[/opt/visual-studio-code/code --no-sandbox --unity-launch]]></command></action></item>
+  </menu>
+  <menu id="0.221132931855635" icon="/home/arkli/.config/obmenu-generator/icons/8c1dc9cf0c1e3e94ac4e6977e943e5ff.png" label="Development">
+    <item label="Visual Studio Code" icon="/home/arkli/.config/obmenu-generator/icons/0775ff53e06b1f6a59278fd96a372bcc.png"><action name="Execute"><command><![CDATA[/opt/visual-studio-code/code --no-sandbox --unity-launch]]></command></action></item>
+  </menu>
+  <menu id="0.62435024375203" icon="/home/arkli/.config/obmenu-generator/icons/dcffb3b53473da4e549363c79ef3e5a9.png" label="Graphics">
+    <item label="GNU Image Manipulation Program" icon="/home/arkli/.config/obmenu-generator/icons/3045f9cde37e3971b818e1b7362c3888.png"><action name="Execute"><command><![CDATA[gimp-2.10]]></command></action></item>
+    <item label="Viewnior" icon="/home/arkli/.config/obmenu-generator/icons/cf20d86a93a9a34ec28b20be736327a3.png"><action name="Execute"><command><![CDATA[viewnior]]></command></action></item>
+  </menu>
+  <menu id="0.762962348616334" icon="/home/arkli/.config/obmenu-generator/icons/9b6b51736fa80f6e4ea743e9a18b2df9.png" label="Multimedia">
+    <item label="DeaDBeeF" icon="/home/arkli/.config/obmenu-generator/icons/bc0e86e2615fb8a1ebeed93547600e4d.png"><action name="Execute"><command><![CDATA[deadbeef]]></command></action></item>
+    <item label="NetEase Cloud Music" icon="/home/arkli/.config/obmenu-generator/icons/3edf272b7f95f686950b45c4f0f7ac30.png"><action name="Execute"><command><![CDATA[netease-cloud-music --ignore-certificate-errors --force-device-scale-factor=1.33]]></command></action></item>
+    <item label="PulseAudio Volume Control" icon="/home/arkli/.config/obmenu-generator/icons/69444a851b20aad47731d8338679c90f.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+    <item label="Qt V4L2 test Utility" icon="/home/arkli/.config/obmenu-generator/icons/6305212b18732a416bbd53041bff3dbd.png"><action name="Execute"><command><![CDATA[qv4l2]]></command></action></item>
+    <item label="Qt V4L2 video capture utility" icon="/home/arkli/.config/obmenu-generator/icons/e893e8e1054bf804a2b03b2f7c6cf7b3.png"><action name="Execute"><command><![CDATA[qvidcap]]></command></action></item>
+    <item label="VLC media player" icon="/home/arkli/.config/obmenu-generator/icons/b62593f8f06c479dced575daa47f6ea5.png"><action name="Execute"><command><![CDATA[/usr/bin/vlc --started-from-file]]></command></action></item>
+    <item label="Volume Icon" icon="/home/arkli/.config/obmenu-generator/icons/69444a851b20aad47731d8338679c90f.png"><action name="Execute"><command><![CDATA[volumeicon]]></command></action></item>
+  </menu>
+  <menu id="0.649518212897494" icon="/home/arkli/.config/obmenu-generator/icons/c7e1c475b5b39f065032f3688b33a3eb.png" label="Network">
+    <item label="Avahi SSH Server Browser" icon="/home/arkli/.config/obmenu-generator/icons/1be588c8d58263b210606a8bc5a67831.png"><action name="Execute"><command><![CDATA[/usr/bin/bssh]]></command></action></item>
+    <item label="Avahi VNC Server Browser" icon="/home/arkli/.config/obmenu-generator/icons/1be588c8d58263b210606a8bc5a67831.png"><action name="Execute"><command><![CDATA[/usr/bin/bvnc]]></command></action></item>
+    <item label="Electronic WeChat" icon="/home/arkli/.config/obmenu-generator/icons/5656e09b7a260f5f96b431cb618f9010.png"><action name="Execute"><command><![CDATA[/usr/bin/electronic-wechat]]></command></action></item>
+    <item label="Google Chrome" icon="/home/arkli/.config/obmenu-generator/icons/bcf3c3cb360f1e07d9abb9b5049f31a0.png"><action name="Execute"><command><![CDATA[/usr/bin/google-chrome-stable]]></command></action></item>
+    <item label="Mail Reader" icon="/home/arkli/.config/obmenu-generator/icons/7f327e1aa66eb404580cd4c2b94c661d.png"><action name="Execute"><command><![CDATA[exo-open --launch MailReader]]></command></action></item>
+    <item label="Telegram Desktop" icon="/home/arkli/.config/obmenu-generator/icons/75df935a8f0a0c850a11e99c04080cfe.png"><action name="Execute"><command><![CDATA[telegram-desktop --]]></command></action></item>
+    <item label="Web Browser" icon="/home/arkli/.config/obmenu-generator/icons/c7e1c475b5b39f065032f3688b33a3eb.png"><action name="Execute"><command><![CDATA[exo-open --launch WebBrowser]]></command></action></item>
+    <item label="腾讯QQ" icon="/home/arkli/.config/obmenu-generator/icons/f11e9b56d05b00b51b71d0c56c482e2f.png"><action name="Execute"><command><![CDATA[/usr/bin/qq]]></command></action></item>
+  </menu>
+  <menu id="0.551858762963079" icon="/home/arkli/.config/obmenu-generator/icons/0b82a46b62fcd3afe7908b39cfd0d580.png" label="Office">
+    <item label="WPS 2019" icon="/home/arkli/.config/obmenu-generator/icons/4bec2ea305b0a8183e529afc3c686222.png"><action name="Execute"><command><![CDATA[/usr/bin/wps]]></command></action></item>
+    <item label="WPS PDF" icon="/home/arkli/.config/obmenu-generator/icons/ab69b183c5ada06130fb18424774f196.png"><action name="Execute"><command><![CDATA[/usr/bin/wpspdf]]></command></action></item>
+    <item label="WPS Presentation" icon="/home/arkli/.config/obmenu-generator/icons/344e129e22dd314d9a8ddf8f6af33faf.png"><action name="Execute"><command><![CDATA[/usr/bin/wpp]]></command></action></item>
+    <item label="WPS Spreadsheets" icon="/home/arkli/.config/obmenu-generator/icons/e1e2017eee097ea6374cabce3824119f.png"><action name="Execute"><command><![CDATA[/usr/bin/et]]></command></action></item>
+    <item label="WPS Writer" icon="/home/arkli/.config/obmenu-generator/icons/6a6017877d29c200d344ce935bd8fe0a.png"><action name="Execute"><command><![CDATA[/usr/bin/wps]]></command></action></item>
+  </menu>
+  <menu id="0.868507010067642" icon="/home/arkli/.config/obmenu-generator/icons/bcb151d4685693cd69071c109fe5aaa0.png" label="Settings">
+    <item label="Accessibility" icon="/home/arkli/.config/obmenu-generator/icons/9179d32e0c8ae295d8afbe71aa578b44.png"><action name="Execute"><command><![CDATA[xfce4-accessibility-settings]]></command></action></item>
+    <item label="Appearance" icon="/home/arkli/.config/obmenu-generator/icons/0dd68bbb35c85975ca801fd9aa136eb7.png"><action name="Execute"><command><![CDATA[xfce4-appearance-settings]]></command></action></item>
+    <item label="Color Profiles" icon="/home/arkli/.config/obmenu-generator/icons/dcffb3b53473da4e549363c79ef3e5a9.png"><action name="Execute"><command><![CDATA[xfce4-color-settings]]></command></action></item>
+    <item label="Customize Look and Feel" icon="/home/arkli/.config/obmenu-generator/icons/0dd68bbb35c85975ca801fd9aa136eb7.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="Display" icon="/home/arkli/.config/obmenu-generator/icons/1e79fc190623fec5805bc0c8882559fe.png"><action name="Execute"><command><![CDATA[xfce4-display-settings]]></command></action></item>
+    <item label="Fcitx Configuration" icon="/home/arkli/.config/obmenu-generator/icons/a4e5205467b6f5a5a1c2d3acb656a10b.png"><action name="Execute"><command><![CDATA[fcitx-configtool]]></command></action></item>
+    <item label="File Manager Settings" icon="/home/arkli/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[thunar-settings]]></command></action></item>
+    <item label="Keyboard" icon="/home/arkli/.config/obmenu-generator/icons/a4e5205467b6f5a5a1c2d3acb656a10b.png"><action name="Execute"><command><![CDATA[xfce4-keyboard-settings]]></command></action></item>
+    <item label="MIME Type Editor" icon="/home/arkli/.config/obmenu-generator/icons/a176b24cfc1041f19deeb2d962ed10c1.png"><action name="Execute"><command><![CDATA[xfce4-mime-settings]]></command></action></item>
+    <item label="Mouse and Touchpad" icon="/home/arkli/.config/obmenu-generator/icons/98876c630b0f1271c951ccf4f45c78ba.png"><action name="Execute"><command><![CDATA[xfce4-mouse-settings]]></command></action></item>
+    <item label="Openbox Configuration Manager" icon="/home/arkli/.config/obmenu-generator/icons/0476ece428f10447c407d0cc404807fd.png"><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+    <item label="Openbox Key bindings" icon="/home/arkli/.config/obmenu-generator/icons/0476ece428f10447c407d0cc404807fd.png"><action name="Execute"><command><![CDATA[obkey]]></command></action></item>
+    <item label="Preferred Applications" icon="/home/arkli/.config/obmenu-generator/icons/a010e5393a6cbec8aee64c8a6e0e5d93.png"><action name="Execute"><command><![CDATA[exo-preferred-applications]]></command></action></item>
+    <item label="Removable Drives and Media" icon="/home/arkli/.config/obmenu-generator/icons/b6d3de7067590b4d652702e907628388.png"><action name="Execute"><command><![CDATA[thunar-volman-settings]]></command></action></item>
+    <item label="Settings Editor" icon="/home/arkli/.config/obmenu-generator/icons/176bd3d00e82067168210c8421460408.png"><action name="Execute"><command><![CDATA[xfce4-settings-editor]]></command></action></item>
+    <item label="Settings Manager" icon="/home/arkli/.config/obmenu-generator/icons/e5cbb79be8f87ca4a404075a3750b2a4.png"><action name="Execute"><command><![CDATA[xfce4-settings-manager]]></command></action></item>
+    <item label="Tint2 Settings" icon="/home/arkli/.config/obmenu-generator/icons/a8e043e750aab4414f3a0370b65921e0.png"><action name="Execute"><command><![CDATA[tint2conf]]></command></action></item>
+    <item label="Xfce Terminal" icon="/home/arkli/.config/obmenu-generator/icons/a69674948cf02b71197d332b577d4b76.png"><action name="Execute"><command><![CDATA[xfce4-terminal --preferences]]></command></action></item>
+  </menu>
+  <menu id="0.0965439775437389" icon="/home/arkli/.config/obmenu-generator/icons/a176b24cfc1041f19deeb2d962ed10c1.png" label="System">
+    <item label="Avahi Zeroconf Browser" icon="/home/arkli/.config/obmenu-generator/icons/1be588c8d58263b210606a8bc5a67831.png"><action name="Execute"><command><![CDATA[/usr/bin/avahi-discover]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/arkli/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[/usr/lib/Thunar/ThunarBulkRename]]></command></action></item>
+    <item label="conky" icon="/home/arkli/.config/obmenu-generator/icons/4705528b90b1145ae98bad6e3b0c8a23.png"><action name="Execute"><command><![CDATA[conky --daemonize --pause=1]]></command></action></item>
+    <item label="eDEX-UI" icon="/home/arkli/.config/obmenu-generator/icons/a82d8b9d6b97392ba0206ea62f2ee28d.png"><action name="Execute"><command><![CDATA["/opt/eDEX-UI/edex-ui"]]></command></action></item>
+    <item label="Fcitx" icon="/home/arkli/.config/obmenu-generator/icons/a4e5205467b6f5a5a1c2d3acb656a10b.png"><action name="Execute"><command><![CDATA[fcitx]]></command></action></item>
+    <item label="Termite" icon="/home/arkli/.config/obmenu-generator/icons/a69674948cf02b71197d332b577d4b76.png"><action name="Execute"><command><![CDATA[termite]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/arkli/.config/obmenu-generator/icons/2dd89e059cfc79430318a45a8a89d54b.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Tint2" icon="/home/arkli/.config/obmenu-generator/icons/a8e043e750aab4414f3a0370b65921e0.png"><action name="Execute"><command><![CDATA[tint2]]></command></action></item>
+    <item label="Xfce Terminal" icon="/home/arkli/.config/obmenu-generator/icons/a69674948cf02b71197d332b577d4b76.png"><action name="Execute"><command><![CDATA[xfce4-terminal]]></command></action></item>
+  </menu>
+  <separator/>
+  <menu id="0.530381783601488" icon="/home/arkli/.config/obmenu-generator/icons/5d4fce55a4a4966e420dedb34dbd7138.png" label="Advanced Settings">
+    <item label="Conky RC" icon="/home/arkli/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.conkyrc]]></command></action></item>
+    <item label="Tint2 Panel" icon="/home/arkli/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/tint2/tint2rc]]></command></action></item>
+  <menu id="0.838603883342103" icon="/home/arkli/.config/obmenu-generator/icons/fa28bbccdb8ea53178a89feae5022254.png" label="Obmenu-Generator">
+    <item label="Menu Schema" icon="/home/arkli/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/arkli/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Generate a static menu" icon="/home/arkli/.config/obmenu-generator/icons/fa28bbccdb8ea53178a89feae5022254.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Generate a static menu with icons" icon="/home/arkli/.config/obmenu-generator/icons/fa28bbccdb8ea53178a89feae5022254.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Generate a dynamic menu" icon="/home/arkli/.config/obmenu-generator/icons/fa28bbccdb8ea53178a89feae5022254.png"><action name="Execute"><command><![CDATA[obmenu-generator -p]]></command></action></item>
+    <item label="Generate a dynamic menu with icons" icon="/home/arkli/.config/obmenu-generator/icons/fa28bbccdb8ea53178a89feae5022254.png"><action name="Execute"><command><![CDATA[obmenu-generator -p -i]]></command></action></item>
+  <separator/>
+    <item label="Refresh cache" icon="/home/arkli/.config/obmenu-generator/icons/bea463f6928b30d6539f9bf6955346e6.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  <menu id="0.894192964087591" icon="/home/arkli/.config/obmenu-generator/icons/18d0310fcf7c8bb965edf7c46583c560.png" label="Openbox">
+    <item label="Openbox Autostart" icon="/home/arkli/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/autostart]]></command></action></item>
+    <item label="Openbox RC" icon="/home/arkli/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Openbox Menu" icon="/home/arkli/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/menu.xml]]></command></action></item>
+    <item label="Reconfigure Openbox" icon="/home/arkli/.config/obmenu-generator/icons/18d0310fcf7c8bb965edf7c46583c560.png"><action name="Execute"><command><![CDATA[openbox --reconfigure]]></command></action></item>
+  </menu>
+  </menu>
+  <separator/>
+    <item label="Lock" icon="/home/arkli/.config/obmenu-generator/icons/40a8d2b055ed2fcd412d83bf9d01cfbc.png"><action name="Execute"><command><![CDATA[xscreensaver-command -lock]]></command></action></item>
+    <item label="Exit" icon="/home/arkli/.config/obmenu-generator/icons/6cac7b097e86a0d41f671eadf3e94e57.png"><action name="Exit"/></item>
+  </menu>
+</openbox_menu>
